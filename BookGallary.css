@@ -1,0 +1,171 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar
+{
+    position: sticky;
+    top: 0px;
+}
+.nav
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 100px;
+    background-color: #e40046;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+.nav h4
+{
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.5s;
+}
+.nav h4:hover
+{
+    text-shadow: 0px 0px 10px white,1px 1px 10px red;
+}
+.icon h4
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    margin-left: 10px;
+}
+.secondnav
+{
+    height: 33px;
+    text-align: center;
+    align-items: center;
+    padding-top: 0px;
+    background-color: #333;
+    position: relative;
+}
+.secondnav a
+{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    margin: 0px 15px;
+    padding-top: 10px;
+    height: 70%;
+    transition: 0.5s;
+    width: 144px;
+}
+.secondnav a:hover
+{
+    background-color: rgb(69, 69, 69,1);
+}
+#inputtext
+{
+    height: 20px;
+    width: 350px;
+
+}
+
+.nav button
+{
+    position: absolute;
+    padding: 2.5px 20px;
+    background-color: #333;
+    color: white;
+    top: 27.5%;
+    left: 62.5%;
+}
+.icon
+{
+    display: flex;
+    justify-content: flex-end;
+}
+.container
+{
+    margin: 0px 100px;
+    animation-timing-function: ease-in;
+    
+}
+.banner
+{
+    background: url(./images/banner1.jpg);
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0px;
+}
+
+.bookrow1
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bookcontain a
+{
+    text-decoration: none;
+    color: black;
+}
+.bookrow1 img
+{
+    width: 200px;
+    height: 300px;
+}
+.bookcontain
+{
+    padding: 10px;
+
+}
+.bookcontain h3
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transition: 0.5s;
+
+}
+.bookcontain h3:hover
+{
+    color: #e40046;
+}
+.bookcontain:hover
+{
+    box-shadow: 0px 0px 17px -5px;
+}
+.footer
+{
+    background-color: #333;
+    color: white;
+    
+}
+.about
+{
+   display: flex;
+   justify-content: space-evenly; 
+   padding: 100px ;
+}
+.about h2
+{
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: large;
+}
+.about h4
+{
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: medium;
+}
+.subheading
+{
+    text-align: center;
+} 
+.subheading h3
+{
+    font-size: x-large ;
+    letter-spacing: 10px;
+    color: #e40046;
+}
+.secondnav a
+{
+    
+}
